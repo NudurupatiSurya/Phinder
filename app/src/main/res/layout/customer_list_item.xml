@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_row="0"
+        android:layout_column="0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MEDICINE NAME: "
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/medicine_name_customer"
+            android:text="Dolo 650"
+            android:layout_row="0"
+            android:layout_column="1"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity: "
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="25"
+            android:id="@+id/quantity_customer"
+            android:layout_row="0"
+            android:layout_column="3"></TextView>
+    </GridLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status "
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Response Yet"
+            android:id="@+id/status_customer"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"></TextView>
+        </GridLayout>
+    </GridLayout>
+</LinearLayout>

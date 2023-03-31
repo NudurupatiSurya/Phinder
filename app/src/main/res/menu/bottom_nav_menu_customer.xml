@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_query"
+        android:icon="@drawable/ic_query"
+        android:title="@string/title_query" />
+
+    <item
+        android:id="@+id/navigation_responses"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_responses" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_account"
+        android:title="@string/title_profile" />
+
+
+</menu>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "755269266755",
+    "project_id": "findmedicines",
+    "storage_bucket": "findmedicines.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755269266755:android:1084bab0d0226a668393f6",
+        "android_client_info": {
+          "package_name": "com.surya.findmedicines"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755269266755-ki9087214m4c1almj37cmmbiqv0v31jc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvOW6ZT2KKNlW9XtItp3yHYFjHjh0AbYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755269266755-ki9087214m4c1almj37cmmbiqv0v31jc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
